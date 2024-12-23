@@ -29,9 +29,22 @@
 		0A0774962D1A164800E016CA /* voice-calendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "voice-calendarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0A5F5A802D1A1E4F005DC631 /* Exceptions for "voice-calendar" folder in "voice-calendar" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0A07747B2D1A164700E016CA /* voice-calendar */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0A07747E2D1A164700E016CA /* voice-calendar */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0A5F5A802D1A1E4F005DC631 /* Exceptions for "voice-calendar" folder in "voice-calendar" target */,
+			);
 			path = "voice-calendar";
 			sourceTree = "<group>";
 		};
@@ -398,8 +411,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"voice-calendar/Preview Content\"";
 				DEVELOPMENT_TEAM = APHMV4Q24X;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "voice-calendar/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Voice Memories";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -409,7 +425,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.celaya.voice-calendar.voice-calendar";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.celaya.voice-calendar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -427,8 +443,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"voice-calendar/Preview Content\"";
 				DEVELOPMENT_TEAM = APHMV4Q24X;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "voice-calendar/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Voice Memories";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -438,7 +457,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.celaya.voice-calendar.voice-calendar";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.celaya.voice-calendar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
